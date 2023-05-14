@@ -26,7 +26,7 @@ public class GameResponseDTO {
     public GameResponseDTO(GameResponseDTOProjection g) {
         this.id = g.getId();
         this.title = g.getTitle();
-        this.year = g.getYear();
+        this.year = g.getGameYear();
         this.imgUrl = g.getImgUrl();
         this.shortDescription = g.getShortDescription();
     }
